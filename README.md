@@ -8,6 +8,7 @@ This js plugin will record the dom node's id and click times when it matches the
 
 >usage:
 ```
+//please do these as soon as document is loaded
 var classNames = "btn";
 var url = "domain/example";
 
@@ -42,7 +43,7 @@ the data will be posted in json string, and its content looks like this:
    },
    "startTimeStamp":1500447561495,
    "DateTime":"2017-07-19 14:59:21",
-   "duration":0,
+   "duration":3508,
    "click":{
     "id of dom":{
       "times":9
