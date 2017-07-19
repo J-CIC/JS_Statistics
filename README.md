@@ -38,7 +38,7 @@ the data will be posted in json string, and its content looks like this:
     "parameter":""
    },
    "currLocation":{
-    "baseUrl":"http://domain/test/js/",
+    "baseUrl":"http://domain/test/js2/",
     "parameter":"xxx=asd&yyy=asd"
    },
    "startTimeStamp":1500447561495,
