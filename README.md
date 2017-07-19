@@ -10,7 +10,7 @@ This js plugin will record the dom node's id and click times when it matches the
 ```
 //please do these as soon as document is loaded
 var classNames = "btn";
-var url = "domain/example";
+var url = "domain/example";//the final ajax destination
 
 //the ways of writing parameter follow is recommended 
 //var classNames = ["btn"];
