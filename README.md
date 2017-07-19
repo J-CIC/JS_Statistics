@@ -2,7 +2,7 @@
 对页面进行用户行为收集统计
 //Collect users' behaviours for backend using js
 
-这个简单插件会记录预设的class，当含有该class的dom节点被点击时会记录其id以及点击次数，同时会记录该用户的访问当前页面的时间，持续时间，当前页面的地址(纯URL和get参数分开统计)，上一个页面的地址(纯URL和get参数分开统计),适应微信浏览器。
+这个简单插件会记录预设的class，当含有该class的dom节点被点击时会记录其id以及点击次数，同时会记录该用户的访问当前页面的时间，持续时间，当前页面的地址(纯URL和get参数分开统计)，上一个页面的地址(纯URL和get参数分开统计)，适应微信浏览器。
 
 This js plugin will record the dom node's id and click times when it matches the preseted classnames. It also record the current Location(pure URL and get parameters), the last Location(pure URL and get parameters), the time when user visit and duration.This work good in Wechat Browser.
 
@@ -10,6 +10,7 @@ This js plugin will record the dom node's id and click times when it matches the
 ```
 var classNames = "btn";
 var url = "domain/example";
+
 //the ways of writing parameter follow is recommended 
 //var classNames = ["btn"];
 //var classNames = ["btn","btn-primary"];
