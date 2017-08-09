@@ -2,6 +2,9 @@
 对页面进行用户行为收集统计
 //Collect users' behaviours for backend using js
 
+Update Log:
+2017/08/10 : add BrowserInfo
+
 这个简单插件会记录预设的class，当含有该class的dom节点被点击时会记录其id以及点击次数，同时会记录该用户的访问当前页面的时间，持续时间，当前页面的地址(纯URL和get参数分开统计)，上一个页面的地址(纯URL和get参数分开统计)，适应微信浏览器。
 
 This js plugin will record the dom node's id and click times when it matches the preseted classnames. It also record the current Location(pure URL and get parameters), the last Location(pure URL and get parameters), the time when user visit and duration.This work good in Wechat Browser.
@@ -48,6 +51,13 @@ the data will be posted in json string, and its content looks like this:
     "id of dom":{
       "times":9
     }
+   },
+   "Browser":{
+    "name":"Netscape",
+    "version":"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36",
+    "code":"Mozilla",
+    "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36",
+    "language":"zh-CN"
    }
  }
 ```
