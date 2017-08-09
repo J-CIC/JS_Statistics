@@ -10,7 +10,7 @@ This js plugin will record the dom node's id and click times when it matches the
 ```
 //please do these as soon as document is loaded
 var classNames = "btn";
-var url = "domain/example";
+var url = "domain/example";//the final ajax destination
 
 //the ways of writing parameter follow is recommended 
 //var classNames = ["btn"];
@@ -38,7 +38,7 @@ the data will be posted in json string, and its content looks like this:
     "parameter":""
    },
    "currLocation":{
-    "baseUrl":"http://domain/test/js/",
+    "baseUrl":"http://domain/test/js2/",
     "parameter":"xxx=asd&yyy=asd"
    },
    "startTimeStamp":1500447561495,
